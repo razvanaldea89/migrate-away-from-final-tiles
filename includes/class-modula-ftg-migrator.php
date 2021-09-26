@@ -59,7 +59,7 @@ class Modula_FTG_Migrator {
 	/**
 	 * Returns the singleton instance of the class.
 	 *
-	 * @since 2.2.7
+	 * @since 1.0.0
 	 */
 	public static function get_instance() {
 
@@ -144,7 +144,7 @@ class Modula_FTG_Migrator {
 	 *
 	 * @return int
 	 *
-	 * @since 2.2.7
+	 * @since 1.0.0
 	 */
 	public function images_count( $id ) {
 		global $wpdb;
@@ -176,7 +176,7 @@ class Modula_FTG_Migrator {
 	 *
 	 * @param string $gallery_id
 	 *
-	 * @since 2.2.7
+	 * @since 1.0.0
 	 */
 	public function final_tiles_gallery_import( $gallery_id = '' ) {
 
@@ -306,7 +306,7 @@ class Modula_FTG_Migrator {
 	 * Update imported galleries
 	 *
 	 *
-	 * @since 2.2.7
+	 * @since 1.0.0
 	 */
 	public function update_imported() {
 
@@ -348,12 +348,14 @@ class Modula_FTG_Migrator {
 	/**
 	 * Returns result
 	 *
-	 * @param $success
-	 * @param $message
+	 * @param      $success
+	 * @param      $message
+	 * @param bool $modula_gallery_id
 	 *
-	 * @since 2.2.7
+	 * @since 1.0.0
 	 */
 	public function modula_import_result( $success, $message, $modula_gallery_id = false ) {
+
 		echo json_encode( array(
 			'success'           => (bool) $success,
 			'message'           => (string) $message,
@@ -368,9 +370,10 @@ class Modula_FTG_Migrator {
 	 *
 	 * @param $gallery_id
 	 *
-	 * @since 2.2.7
+	 * @since 1.0.0
 	 */
 	public function clean_entries( $gallery_id ) {
+
 		global $wpdb;
 
 		if ( $wpdb->get_var( "SHOW TABLES LIKE '" . $wpdb->prefix . "finaltiles_gallery'" ) ) {
@@ -470,6 +473,8 @@ class Modula_FTG_Migrator {
 	 * @param $data
 	 *
 	 * @return mixed
+	 *
+	 * @since 1.0.0
 	 */
 	public function migrator_images( $images, $data ) {
 

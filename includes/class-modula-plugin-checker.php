@@ -168,7 +168,7 @@ if ( ! class_exists( 'Modula_Plugin_Checker' ) ) {
 
 			echo '<div id="modula-install-lite" class="notice">';
 			echo '<h1>' . esc_html__( 'Install & Activate Modula Lite', 'modula-ftg-migrator' ) . '</h1>';
-			echo '<h4>' . esc_html__( 'In order for Modula PRO to work properly, you\'ll also need to have Modula Lite installed & activated', 'modula-ftg-migrator' ) . '</h4>';
+			echo '<h4>' . esc_html__( 'In order for the migrator to work properly, you\'ll also need to have Modula installed & activated', 'modula-ftg-migrator' ) . '</h4>';
 			echo '<a href="' . esc_url( $url ) . '" data-action="' . esc_attr( $action ) . '" class="button button-primary button-hero" id="install-modula-lite">' . esc_html( $label ) . '</a>';
 			echo '</div>';
 		}

@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-define( 'MODULA_FTG_MIGRATOR_VERSION', '1.0.1' );
+define( 'MODULA_FTG_MIGRATOR_VERSION', '1.0.0' );
 define( 'MODULA_FTG_MIGRATOR_PATH', plugin_dir_path( __FILE__ ) );
 define( 'MODULA_FTG_MIGRATOR_URL', plugin_dir_url( __FILE__ ) );
 define( 'MODULA_FTG_MIGRATOR_FILE', __FILE__ );
