@@ -1,0 +1,7 @@
+node_modules/*
+.idea/*
+package-lock.json
+migrate-away-from-final-tiles.zip
+.standard.json
+.DS_Store
+.vscode/
