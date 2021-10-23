@@ -1,6 +1,6 @@
 === Migrate away from Final Tiles ===
 Contributors: wpchill, silkalns
-Tags: final tiles migrator, migrate to Modula,
+Tags: final tiles migrator, migrate to Modula, gallery migrator, migrate from final tiles gallery
 Requires at least: 5.2
 Tested up to: 5.8
 Requires PHP: 5.6
