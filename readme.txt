@@ -34,8 +34,7 @@ Modula **fixes all of the above** and more. Read on to see what we're all about.
 * Watermark: protect your photos by adding custom watermarks. 
 * Advanced Shortcodes: you can dynamically link to specific galleries without creating pages for them by using URLs with query strings.
 * Speed UP: using this extension you can optimize your images by reducing their file sizes, resizing them through ShortPixel's image optimization algorithms and serve them from StackPath's CDN (content delivery network). The result? A really REALLY fast website without the high costs associated.
-* Migration tool: great if you're looking to move over your gallery from any of our competitors. Works great now with NextGen, Envira, Final Tiles Grid Gallery, Photoblocks and even native WordPress galleries can be converted to Modula.
-* Import/Export tool: really great for moving your galleries to another site without jumping through hoops. 
+* Import/Export tool: really great for moving your galleries to another site without jumping through hoops.
 * Email support 
 * Support and updates, included with each purchase, for 1 year.
 >
