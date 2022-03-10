@@ -1,10 +1,10 @@
 {
-	"name": "modula-deeplink",
+	"name": "modula-final-tiles-migrator",
 	"main": "Gruntfile.js",
 	"version": "1.0.0",
-	"author": "Macho Themes",
+	"author": "WPChill",
 	"license": "GPL v3",
-	"repository": "https://github.com/machothemes/simple-author-box.git",
+	"repository": "https://github.com/WPChill/migrate-away-from-final-tiles.git",
 	"scripts": {
 		"build": "webpack",
 		"watch": "webpack --watch",

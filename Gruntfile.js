@@ -14,7 +14,7 @@ module.exports = function( grunt ) {
 		checktextdomain: {
 			standard: {
 				options: {
-					text_domain: [ 'migrate-away-from-final-tiles' ], //Specify allowed domain(s)
+					text_domain: [ 'modula-final-tiles-migrator' ], //Specify allowed domain(s)
 					create_report_file: 'true',
 					keywords: [ //List keyword specifications
 						'__:1,2d',
@@ -51,9 +51,9 @@ module.exports = function( grunt ) {
 	                domainPath: 'languages/',         // Where to save the POT file.
 	                exclude: [],                      // List of files or directories to ignore.
 	                include: [],                      // List of files or directories to include.
-	                mainFile: 'migrate-away-from-final-tiles.php',                     // Main project file.
+	                mainFile: 'modula-final-tiles-migrator.php',                     // Main project file.
 	                potComments: '',                  // The copyright at the beginning of the POT file.
-	                potFilename: 'migrate-away-from-final-tiles.po',                  // Name of the POT file.
+	                potFilename: 'modula-final-tiles-migrator.po',                  // Name of the POT file.
 	                potHeaders: {
 	                    poedit: true,                 // Includes common Poedit headers.
 	                    'x-poedit-keywordslist': true // Include a list of all possible gettext functions.
@@ -70,9 +70,9 @@ module.exports = function( grunt ) {
 	                domainPath: 'languages/',         // Where to save the POT file.
 	                exclude: [],                      // List of files or directories to ignore.
 	                include: [],                      // List of files or directories to include.
-	                mainFile: 'migrate-away-from-final-tiles.php',                     // Main project file.
+	                mainFile: 'modula-final-tiles-migrator.php',                     // Main project file.
 	                potComments: '',                  // The copyright at the beginning of the POT file.
-	                potFilename: 'migrate-away-from-final-tiles.pot',                  // Name of the POT file.
+	                potFilename: 'modula-final-tiles-migrator.pot',                  // Name of the POT file.
 	                potHeaders: {
 	                    poedit: true,                 // Includes common Poedit headers.
 	                    'x-poedit-keywordslist': true // Include a list of all possible gettext functions.
@@ -129,7 +129,7 @@ module.exports = function( grunt ) {
 					'!postcss.config.js',
 					'!webpack.config.js',
 					'!set_tags.sh',
-					'!modula-deeplink.zip',
+					'!modula-final-tiles-migrator.zip',
 					'!old/**',
 					'!nbproject/**'
 				],
