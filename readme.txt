@@ -95,16 +95,16 @@ The simplest way to install is to click on \'Plugins\' then \'Add\' and type \'M
 1. Login to your website and go to the Plugins section of your admin panel.
 2. Click the Add New button.
 3. Under Install Plugins, click the Upload link.
-4. Select the plugin zip file (migrate-away-from-final-tiles.x.x.x.zip) from your computer then click the Install Now button.
+4. Select the plugin zip file (modula-final-tiles-migrator.x.x.x.zip) from your computer then click the Install Now button.
 5. You should see a message stating that the plugin was installed successfully.
 6. Click the Activate Plugin link.
 = For manual installation 2: =
 1. You should have access to the server where WordPress is installed. If you don\'t, see your system administrator.
-2. Copy the plugin zip file (migrate-away-from-final-tiles.x.x.x.zip) up to your server and unzip it somewhere on the file system.
-3. Copy the \"migrate-away-from-final-tiles\" folder into the /wp-content/plugins directory of your WordPress installation.
+2. Copy the plugin zip file (modula-final-tiles-migrator.x.x.x.zip) up to your server and unzip it somewhere on the file system.
+3. Copy the \"modula-final-tiles-migrator\" folder into the /wp-content/plugins directory of your WordPress installation.
 4. Login to your website and go to the Plugins section of your admin panel.
 5. Look for \"Migrate away from Final Tiles\" and click Activate.
 
 == Changelog ==
 
-See <a href="https://github.com/WPChill/migrate-away-from-final-tiles/blob/main/changelog.txt" target="_blank">changelog</a>
+See <a href="https://github.com/WPChill/modula-final-tiles-migrator/blob/main/changelog.txt" target="_blank">changelog</a>

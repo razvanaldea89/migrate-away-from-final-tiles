@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"author": "WPChill",
 	"license": "GPL v3",
-	"repository": "https://github.com/WPChill/migrate-away-from-final-tiles.git",
+	"repository": "https://github.com/WPChill/modula-final-tiles-migrator.git",
 	"scripts": {
 		"build": "webpack",
 		"watch": "webpack --watch",
