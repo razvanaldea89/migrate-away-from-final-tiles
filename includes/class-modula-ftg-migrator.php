@@ -311,8 +311,14 @@ class Modula_FTG_Migrator {
 	public function update_imported() {
 
 		check_ajax_referer( 'modula-importer', 'nonce' );
+
+		if ( ! isset( $_POST['galleries'] ) ) {
+			wp_send_json_error();
+		}
+
 		$importer_settings = get_option( 'modula_importer' );
-		$galleries         = $_POST['galleries'];
+
+		$galleries = array_map( 'absint', wp_unslash( $_POST['galleries'] ) );
 
 		if ( ! is_array( $importer_settings ) ) {
 			$importer_settings = array();
@@ -338,7 +344,7 @@ class Modula_FTG_Migrator {
 			$url = admin_url( 'edit.php?post_type=modula-gallery&page=modula&modula-tab=importer&migration=complete&delete=complete' );
 		}
 
-		echo $url;
+		echo esc_url( $url );
 		wp_die();
 
 
